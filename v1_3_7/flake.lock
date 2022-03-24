@@ -36,7 +36,8 @@
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "src-hastysite-v1_3_7": "src-hastysite-v1_3_7"
+        "src-hastysite-v1_3_7": "src-hastysite-v1_3_7",
+        "zippy": "zippy"
       }
     },
     "src-hastysite-v1_3_7": {
@@ -53,6 +54,50 @@
         "owner": "h3rald",
         "ref": "refs/tags/v1.3.7",
         "repo": "hastysite",
+        "type": "github"
+      }
+    },
+    "src-zippy-0_9_7": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1643953702,
+        "narHash": "sha256-hIq+inWzFXCj5d0qBzi2li/3rpgAePmrizUCBZizmFY=",
+        "owner": "guzba",
+        "repo": "zippy",
+        "rev": "4a7ff984cc97f3930007468ff265726d019c4a52",
+        "type": "github"
+      },
+      "original": {
+        "owner": "guzba",
+        "ref": "refs/tags/0.9.7",
+        "repo": "zippy",
+        "type": "github"
+      }
+    },
+    "zippy": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-zippy-0_9_7": "src-zippy-0_9_7"
+      },
+      "locked": {
+        "dir": "0_9_7",
+        "lastModified": 1648081535,
+        "narHash": "sha256-71U1Dbhzk2PaIpxWdRjnRVE5ZhkHpVSEtWccje9SzUc=",
+        "owner": "nim-nix-pkgs",
+        "repo": "zippy",
+        "rev": "7b011397bd1fc30e19dd36ad3a33a57f3f33cf62",
+        "type": "github"
+      },
+      "original": {
+        "dir": "0_9_7",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "zippy",
         "type": "github"
       }
     }
