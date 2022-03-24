@@ -1,5 +1,5 @@
 {
-  description = ''A small but powerful static site generator powered by HastyScribe and min'';
+  description = ''A small but powerful static site generator'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -12,6 +12,14 @@
   inputs.src-hastysite-master.owner = "h3rald";
   inputs.src-hastysite-master.repo  = "hastysite";
   inputs.src-hastysite-master.type  = "github";
+  
+  inputs."zippy".owner = "nim-nix-pkgs";
+  inputs."zippy".ref   = "master";
+  inputs."zippy".repo  = "zippy";
+  inputs."zippy".dir   = "0_9_7";
+  inputs."zippy".type  = "github";
+  inputs."zippy".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."zippy".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 

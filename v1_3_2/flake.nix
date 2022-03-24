@@ -1,5 +1,5 @@
 {
-  description = ''A small but powerful static site generator powered by HastyScribe and min'';
+  description = ''A small but powerful static site generator'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
