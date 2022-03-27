@@ -11,6 +11,7 @@
   inputs.src-hastysite-master.ref   = "refs/heads/master";
   inputs.src-hastysite-master.owner = "h3rald";
   inputs.src-hastysite-master.repo  = "hastysite";
+  inputs.src-hastysite-master.dir   = "";
   inputs.src-hastysite-master.type  = "github";
   
   inputs."zippy".owner = "nim-nix-pkgs";

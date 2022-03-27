@@ -11,6 +11,7 @@
   inputs.src-hastysite-v1_3_1.ref   = "refs/tags/v1.3.1";
   inputs.src-hastysite-v1_3_1.owner = "h3rald";
   inputs.src-hastysite-v1_3_1.repo  = "hastysite";
+  inputs.src-hastysite-v1_3_1.dir   = "";
   inputs.src-hastysite-v1_3_1.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
